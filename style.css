@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(201, 153, 160);
+}
+.container{
+    border:3px solid rgba(3, 69, 97, 0.58);
+    background-color: rgb(172, 210, 220);
+    padding:15px;
+    width: 67%;
+    margin:0px auto;
+    text-align: center;;
+}
+.button{
+    background-color: lightpink;
+}
