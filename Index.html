@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Skills Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Cine Sophia</h1>
+    <hr>
+    <h4>Student Detials</h4>
+    <input label="Fullname" type="text" placeholder="Fullname">
+    <hr>
+    <h4>Ticket Selection</h4>
+    <hr>
+    <label for="QTY">QTY:</label>
+    <input  ID="QTY" type="number" value="0" min="0">
+<!--PAYMENT-->
+<h4>Payment Detials </h4>
+<!--SUBT-->
+<hr>
+    <label for="SUBT">Subtotal:</label>
+    <input ID="SUBT" type="number" readonly>
+<!--ADmin FEE-->
+    <hr>
+    <label for="AdminF">Admin Fee:</label>
+    <input ID="AdminF"type="number"  readonly value="50">
+    <hr>
+<!--TOTAL-->
+    <label for="Total">Total:</label>
+    <input ID="Total" label="Total"type="number" readonly >
+    <hr>
+    <button type="button" class="btn btn-success" ID="Totals">Total</button>
+     <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+   
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
